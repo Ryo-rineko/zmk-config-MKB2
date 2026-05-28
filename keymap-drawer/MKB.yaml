@@ -36,7 +36,7 @@ layers:
   - COMMA
   - DOT
   - FSLH
-  - RIGHT SHIFT
+  - {t: RIGHT SHIFT, h: Mouse}
   - {t: ESC, h: LCTL}
   - LGUI
   - LGUI
@@ -197,7 +197,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
@@ -209,11 +210,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
