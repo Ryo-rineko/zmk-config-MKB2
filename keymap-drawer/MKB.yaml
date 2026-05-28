@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - BSLH
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - SEMI
-  - {t: SQT, h: Mouse}
-  - LSHFT
+  - SQT
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -35,18 +35,18 @@ layers:
   - M
   - COMMA
   - DOT
-  - UP
   - FSLH
+  - RIGHT SHIFT
   - {t: ESC, h: LCTL}
   - LGUI
-  - LALT
+  - LGUI
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - BACKSPACE
+  - {t: ENTER, h: Num}
   - LEFT
   - DOWN
-  - RIGHT
+  - {t: BACKSPACE, h: Fnc}
   - LEFT
   - UP
   - SPACE
@@ -58,7 +58,7 @@ layers:
   - PG DN
   - END
   - A
-  - B
+  - RIGHT ALT
   Fnc:
   - GRAVE
   - PG UP
@@ -201,7 +201,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
