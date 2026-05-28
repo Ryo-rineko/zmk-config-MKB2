@@ -37,16 +37,16 @@ layers:
   - DOT
   - FSLH
   - {t: RIGHT SHIFT, h: Mouse}
-  - {t: ESC, h: LCTL}
+  - {t: LGUI, h: Mouse}
   - LGUI
   - LGUI
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
-  - LEFT
-  - DOWN
-  - {t: BACKSPACE, h: Fnc}
+  - LALT
+  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, h: BT}
   - LEFT
   - UP
   - SPACE
@@ -60,37 +60,37 @@ layers:
   - A
   - RIGHT ALT
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
   - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
-  - '&tog_ls'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
-  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BKSP
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F11
+  - CAPSLOCK
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - PAGE UP
+  - '&msc SCRL_UP'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - Gui+V
+  - {t: ▽, type: trans}
+  - F12
+  - LCTRL
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - '&mmv MOVE_DOWN'
+  - Alt+RIGHT
+  - PAGE DOWN
+  - '&msc SCRL_DOWN'
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,7 +119,7 @@ layers:
   - A
   - B
   Num:
-  - CAPS
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -130,36 +130,36 @@ layers:
   - '8'
   - '9'
   - '0'
+  - PIPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - UP ARROW
+  - RIGHT
+  - PAGE UP
   - MINUS
   - EQUAL
   - LBKT
   - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
+  - COLON
+  - DOUBLE QUOTES
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
+  - DOWN
+  - END
+  - PAGE DOWN
+  - MINUS
+  - PLUS
+  - LESS THAN
+  - GREATER THAN
+  - QUESTION
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -199,8 +199,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB2'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -341,7 +341,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LEFT
   - UP
   - SPACE
