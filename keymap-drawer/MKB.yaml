@@ -37,7 +37,7 @@ layers:
   - DOT
   - FSLH
   - {t: RIGHT SHIFT, h: Mouse}
-  - {t: LGUI, h: Mouse}
+  - {t: LCTRL, h: Mouse}
   - LGUI
   - LGUI
   - {t: SPACE, h: Num}
@@ -149,7 +149,7 @@ layers:
   - DOWN
   - END
   - PAGE DOWN
-  - MINUS
+  - UNDER
   - PLUS
   - LESS THAN
   - GREATER THAN
@@ -237,40 +237,40 @@ layers:
   - A
   - B
   Scr:
+  - Sft+ESCAPE
+  - '!'
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
+  - LCTRL
+  - AMPERSAND
+  - ASTERISK
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - PIPE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+UP ARROW
+  - Gui+RIGHT
+  - PAGE UP
+  - MINUS
+  - EQUAL
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - COLON
+  - DOUBLE QUOTES
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+DOWN ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - UNDERSCORE
+  - PLUS
+  - LEFT BRACE
+  - RIGHT BRACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
