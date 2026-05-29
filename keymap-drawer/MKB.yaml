@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: Num}
   - {t: SPACE, h: Fnc}
   - BACKSPACE
-  - {t: ENTER, h: Num}
+  - {t: ENTER, h: Scr}
   - LALT
   - {t: ▽, type: trans}
   - {t: LEFT SHIFT, h: BT}
@@ -279,7 +279,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
