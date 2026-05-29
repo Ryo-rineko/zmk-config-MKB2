@@ -27,12 +27,12 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp TAB           &kp Q     &kp W      &kp E     &kp R          &kp T               &kp Y          &kp U          &kp I          &kp O      &kp P      &kp BSLH
-&kp LEFT_SHIFT    &kp A     &kp S      &kp D     &kp F          &kp G               &kp H          &kp J          &kp K          &kp L      &kp SEMI   &kp SQT
-&kp LEFT_CONTROL  &kp Z     &kp X      &kp C     &kp V          &kp B               &kp N          &kp M          &kp COMMA      &kp DOT    &kp FSLH   &lt 3 RIGHT_SHIFT
-&lt 3 LCTRL       &kp LGUI  &kp LGUI             &lt NUM SPACE  &lt FUNC SPACE      &kp BACKSPACE  &lt NUM ENTER                 &kp LALT   &trans     &lt 5 LEFT_SHIFT
-&kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                         &kp HOME       &kp PG_UP      &kp ENTER  &kp PG_DN  &kp END
-                                       &kp A                                                                      &kp RIGHT_ALT
+&kp TAB           &kp Q     &kp W      &kp E     &kp R          &kp T               &kp Y          &kp U        &kp I          &kp O      &kp P      &kp BSLH
+&kp LEFT_SHIFT    &kp A     &kp S      &kp D     &kp F          &kp G               &kp H          &kp J        &kp K          &kp L      &kp SEMI   &kp SQT
+&kp LEFT_CONTROL  &kp Z     &kp X      &kp C     &kp V          &kp B               &kp N          &kp M        &kp COMMA      &kp DOT    &kp FSLH   &lt 3 RIGHT_SHIFT
+&lt 3 LCTRL       &kp LGUI  &kp LGUI             &lt NUM SPACE  &lt FUNC SPACE      &kp BACKSPACE  &lt 4 ENTER                 &kp LALT   &trans     &lt 5 LEFT_SHIFT
+&kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                         &kp HOME     &kp PG_UP      &kp ENTER  &kp PG_DN  &kp END
+                                       &kp A                                                                    &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
