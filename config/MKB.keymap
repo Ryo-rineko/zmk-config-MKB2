@@ -30,7 +30,7 @@
 &kp TAB           &kp Q     &kp W      &kp E     &kp R          &kp T               &kp Y          &kp U          &kp I          &kp O      &kp P      &kp BSLH
 &kp LEFT_SHIFT    &kp A     &kp S      &kp D     &kp F          &kp G               &kp H          &kp J          &kp K          &kp L      &kp SEMI   &kp SQT
 &kp LEFT_CONTROL  &kp Z     &kp X      &kp C     &kp V          &kp B               &kp N          &kp M          &kp COMMA      &kp DOT    &kp FSLH   &lt 3 RIGHT_SHIFT
-&lt 3 LGUI        &kp LGUI  &kp LGUI             &lt NUM SPACE  &lt FUNC SPACE      &kp BACKSPACE  &lt NUM ENTER                 &kp LALT   &trans     &lt 5 LEFT_SHIFT
+&lt 3 LCTRL       &kp LGUI  &kp LGUI             &lt NUM SPACE  &lt FUNC SPACE      &kp BACKSPACE  &lt NUM ENTER                 &kp LALT   &trans     &lt 5 LEFT_SHIFT
 &kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                         &kp HOME       &kp PG_UP      &kp ENTER  &kp PG_DN  &kp END
                                        &kp A                                                                      &kp RIGHT_ALT
             >;
@@ -57,7 +57,7 @@
             bindings = <
 &kp ESCAPE  &kp N1  &kp N2     &kp N3        &kp N4     &kp N5             &kp N6     &kp N7     &kp N8         &kp N9            &kp N0        &kp PIPE
 &trans      &trans  &kp LEFT   &kp UP_ARROW  &kp RIGHT  &kp PAGE_UP        &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT          &kp COLON     &kp DOUBLE_QUOTES
-&trans      &trans  &kp HOME   &kp DOWN      &kp END    &kp PAGE_DOWN      &kp MINUS  &kp PLUS   &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+&trans      &trans  &kp HOME   &kp DOWN      &kp END    &kp PAGE_DOWN      &kp UNDER  &kp PLUS   &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
 &trans      &trans  &trans                   &trans     &trans             &kp ENTER  &kp ENTER                 &trans            &trans        &trans
 &kp LEFT    &kp UP  &kp SPACE  &kp DOWN      &kp RIGHT                                &kp HOME   &kp PG_UP      &kp ENTER         &kp PG_DN     &kp END
                                &kp A                                                             &kp B
@@ -83,12 +83,12 @@
         scroll_layer {
             label = "Scr";
             bindings = <
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &mkp MB1  &mkp MB3   &mkp MB2   &trans     &trans
-&trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans  &trans               &trans     &trans      &trans  &trans               &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                      &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                             &kp A                                              &kp B
+&kp LS(ESCAPE)  &kp EXCLAMATION  &kp AT_SIGN         &kp HASH            &kp DOLLAR     &kp PERCENT        &kp LCTRL       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&trans          &trans           &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)    &kp LG(RIGHT)  &kp PAGE_UP        &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp COLON              &kp DOUBLE_QUOTES
+&trans          &trans           &trans              &kp LG(DOWN_ARROW)  &trans         &kp PAGE_DOWN      &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &trans                 &trans
+&trans          &trans           &trans                                  &trans         &trans             &trans          &trans                           &trans                &trans                 &trans
+&kp LEFT        &kp UP           &kp SPACE           &kp DOWN            &kp RIGHT                                         &kp HOME       &kp PG_UP         &kp ENTER             &kp PG_DN              &kp END
+                                                     &kp A                                                                                &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
